@@ -24,14 +24,14 @@
                                 <rect key="frame" x="14" y="452" width="365" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eUN-Nd-UJg">
-                                <rect key="frame" x="16" y="719" width="370" height="72.333333333333371"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MiJ-zk-s2D">
+                                <rect key="frame" x="16" y="725" width="365" height="74.333333333333371"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="104" translatesAutoresizingMaskIntoConstraints="NO" id="oPg-DZ-00y">
-                                        <rect key="frame" x="0.0" y="0.0" width="370" height="34.333333333333336"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="99" translatesAutoresizingMaskIntoConstraints="NO" id="2cK-bH-sPY">
+                                        <rect key="frame" x="0.0" y="0.0" width="365" height="34.333333333333336"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcn-Zq-MSO">
-                                                <rect key="frame" x="0.0" y="0.0" width="51" height="34.333333333333336"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="56" height="34.333333333333336"/>
                                                 <accessibility key="accessibilityConfiguration" hint="Reproducir desde el comienzo" identifier="left" label="boton izquierdo"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" image="arrowshape.left.fill" catalog="system"/>
@@ -55,7 +55,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHb-ib-HcV">
-                                                <rect key="frame" x="319" y="0.0" width="51" height="34.333333333333336"/>
+                                                <rect key="frame" x="314" y="0.0" width="51" height="34.333333333333336"/>
                                                 <accessibility key="accessibilityConfiguration" hint="Reproducir desde el comienzo" identifier="left" label="boton izquierdo"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" image="arrowshape.right.fill" catalog="system"/>
@@ -69,7 +69,7 @@
                                         </subviews>
                                     </stackView>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" minimumValueImage="speaker.slash.fill" catalog="system" maximumValueImage="speaker.wave.2.fill" translatesAutoresizingMaskIntoConstraints="NO" id="heB-bT-sgh">
-                                        <rect key="frame" x="-2" y="42.333333333333336" width="374" height="31.000000000000007"/>
+                                        <rect key="frame" x="-2" y="44.333333333333336" width="369" height="31.000000000000007"/>
                                     </slider>
                                 </subviews>
                             </stackView>
