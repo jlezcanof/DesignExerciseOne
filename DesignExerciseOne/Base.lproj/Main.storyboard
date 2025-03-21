@@ -39,7 +39,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-zJ-Uwf">
-                                <rect key="frame" x="16" y="459" width="60" height="75.666666666666629"/>
+                                <rect key="frame" x="16" y="452" width="60" height="75.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="final_humidity_icon" translatesAutoresizingMaskIntoConstraints="NO" id="H4y-Ds-M6K">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -58,7 +58,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6Ai-3j-VB2">
-                                <rect key="frame" x="16" y="580" width="77" height="75.666666666666629"/>
+                                <rect key="frame" x="16" y="590" width="77" height="75.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer_icon" translatesAutoresizingMaskIntoConstraints="NO" id="g3T-Fq-WTv">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
