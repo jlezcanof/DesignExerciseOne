@@ -57,7 +57,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6Ai-3j-VB2">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6Ai-3j-VB2">
                                 <rect key="frame" x="16" y="590" width="77" height="75.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer_icon" translatesAutoresizingMaskIntoConstraints="NO" id="g3T-Fq-WTv">
@@ -100,7 +100,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="3eR-Vh-lMu">
-                                <rect key="frame" x="16" y="314.33333333333326" width="74.333333333333329" height="75.666666666666686"/>
+                                <rect key="frame" x="16" y="314.33333333333331" width="74.333333333333329" height="75.666666666666686"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simple_wind_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Jh4-HG-clO">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -221,6 +221,7 @@
                             <constraint firstItem="aaV-zJ-Uwf" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="Zca-PK-d0f"/>
                             <constraint firstItem="3eR-Vh-lMu" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="dCa-QR-w3A"/>
                             <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="aaV-zJ-Uwf" secondAttribute="bottom" constant="290.33333333333337" id="kj1-eT-fkN"/>
+                            <constraint firstItem="6Ai-3j-VB2" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="pKg-UE-LgN"/>
                             <constraint firstItem="wA0-mu-zPD" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="sSf-Ym-7HG"/>
                         </constraints>
                     </view>
