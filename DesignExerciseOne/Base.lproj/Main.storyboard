@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TOMORROW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyb-tB-VIU">
-                                <rect key="frame" x="280" y="276" width="106" height="20"/>
+                                <rect key="frame" x="274" y="276" width="103" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
@@ -58,7 +58,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6Ai-3j-VB2">
-                                <rect key="frame" x="16" y="590" width="77" height="75.666666666666629"/>
+                                <rect key="frame" x="16" y="590" width="361" height="75.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer_icon" translatesAutoresizingMaskIntoConstraints="NO" id="g3T-Fq-WTv">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -81,7 +81,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="wA0-mu-zPD">
-                                <rect key="frame" x="16" y="730" width="76.333333333333329" height="76.666666666666629"/>
+                                <rect key="frame" x="16" y="730" width="361" height="76.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horizontal_raindrops_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WZO-yk-ilO">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -100,7 +100,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="3eR-Vh-lMu">
-                                <rect key="frame" x="16" y="314.33333333333331" width="74.333333333333329" height="75.666666666666686"/>
+                                <rect key="frame" x="16" y="314.33333333333331" width="361" height="75.666666666666686"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simple_wind_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Jh4-HG-clO">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -168,14 +168,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" fixedFrame="YES" text="TODAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HeN-ZR-Xcg">
-                                <rect key="frame" x="205" y="276" width="61" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YESTERDAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liN-UB-ytP">
-                                <rect key="frame" x="83" y="276" width="97" height="20"/>
+                                <rect key="frame" x="188" y="276" width="61" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
@@ -211,18 +204,28 @@
                                 <color key="textColor" systemColor="systemPinkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YESTERDAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liN-UB-ytP">
+                                <rect key="frame" x="68" y="276" width="97" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vfz-fr-7HA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Ai-3j-VB2" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="F9f-Qr-Okd"/>
-                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="wA0-mu-zPD" secondAttribute="bottom" constant="11.333333333333371" id="Kgr-wP-rFG"/>
-                            <constraint firstItem="wA0-mu-zPD" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="TIj-rb-kne"/>
-                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="aaV-zJ-Uwf" secondAttribute="bottom" constant="290.33333333333337" id="a1z-La-vAU"/>
-                            <constraint firstItem="3eR-Vh-lMu" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="gAJ-dC-HkO"/>
-                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="6Ai-3j-VB2" secondAttribute="bottom" constant="152.33333333333337" id="hz7-tV-rpy"/>
-                            <constraint firstItem="aaV-zJ-Uwf" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="we3-nF-D4E"/>
-                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="3eR-Vh-lMu" secondAttribute="bottom" constant="428" id="yUe-eB-MPO"/>
+                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="aaV-zJ-Uwf" secondAttribute="bottom" constant="290.33333333333337" id="3IL-Rf-a3p"/>
+                            <constraint firstItem="6Ai-3j-VB2" firstAttribute="centerX" secondItem="Vfz-fr-7HA" secondAttribute="centerX" id="8jT-Di-IDj"/>
+                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="wA0-mu-zPD" secondAttribute="bottom" constant="11.333333333333371" id="GgI-lH-u2L"/>
+                            <constraint firstItem="wA0-mu-zPD" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="JbY-rW-fgI"/>
+                            <constraint firstItem="3eR-Vh-lMu" firstAttribute="centerX" secondItem="Vfz-fr-7HA" secondAttribute="centerX" id="OYX-BF-ZcX"/>
+                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="3eR-Vh-lMu" secondAttribute="bottom" constant="428.00000000000006" id="XsE-NQ-3oz"/>
+                            <constraint firstItem="wA0-mu-zPD" firstAttribute="centerX" secondItem="Vfz-fr-7HA" secondAttribute="centerX" id="ZOx-CK-vTS"/>
+                            <constraint firstItem="3eR-Vh-lMu" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="dsD-8Z-qFk"/>
+                            <constraint firstItem="6Ai-3j-VB2" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="frS-fY-cQh"/>
+                            <constraint firstItem="aaV-zJ-Uwf" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="iyV-r5-cRb"/>
+                            <constraint firstItem="6Ai-3j-VB2" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" constant="531" id="nRA-lJ-Lgx"/>
                         </constraints>
                     </view>
                 </viewController>
