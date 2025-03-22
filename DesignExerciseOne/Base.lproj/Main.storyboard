@@ -24,9 +24,8 @@
                                 <color key="textColor" systemColor="systemPurpleColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TOMORROW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyb-tB-VIU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TOMORROW" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zyb-tB-VIU">
                                 <rect key="frame" x="274" y="276" width="103" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -230,6 +229,8 @@
                             <constraint firstItem="1JR-Ve-h8J" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" id="hW9-yG-imM"/>
                             <constraint firstItem="aaV-zJ-Uwf" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="i1W-pv-Kv7"/>
                             <constraint firstItem="3eR-Vh-lMu" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="m2e-Qj-OqF"/>
+                            <constraint firstItem="Zyb-tB-VIU" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" constant="217" id="sUZ-Et-qMf"/>
+                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="trailing" secondItem="Zyb-tB-VIU" secondAttribute="trailing" constant="16" id="tO1-Sg-2JE"/>
                         </constraints>
                     </view>
                 </viewController>
