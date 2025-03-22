@@ -38,7 +38,7 @@
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-zJ-Uwf">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-zJ-Uwf">
                                 <rect key="frame" x="16" y="452" width="60" height="75.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="final_humidity_icon" translatesAutoresizingMaskIntoConstraints="NO" id="H4y-Ds-M6K">
@@ -133,7 +133,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6Ai-3j-VB2">
-                                <rect key="frame" x="16" y="726" width="77" height="75.666666666666629"/>
+                                <rect key="frame" x="16" y="726.33333333333337" width="77" height="75.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer_icon" translatesAutoresizingMaskIntoConstraints="NO" id="g3T-Fq-WTv">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -193,7 +193,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="wA0-mu-zPD">
-                                <rect key="frame" x="16" y="592.33333333333348" width="76.333333333333329" height="76.666666666666629"/>
+                                <rect key="frame" x="16.333333333333336" y="592.33333333333348" width="76.333333333333314" height="76.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horizontal_raindrops_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WZO-yk-ilO">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -216,9 +216,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Ai-3j-VB2" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="ITa-cV-Q8q"/>
+                            <constraint firstItem="aaV-zJ-Uwf" firstAttribute="top" secondItem="3eR-Vh-lMu" secondAttribute="bottom" constant="62" id="Kk2-eG-jhy"/>
                             <constraint firstItem="3eR-Vh-lMu" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" constant="255.33333333333326" id="Tz7-Wx-ATF"/>
+                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="6Ai-3j-VB2" secondAttribute="bottom" constant="16" id="XWd-l6-QvN"/>
+                            <constraint firstItem="aaV-zJ-Uwf" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="i1W-pv-Kv7"/>
                             <constraint firstItem="3eR-Vh-lMu" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="m2e-Qj-OqF"/>
-                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="6Ai-3j-VB2" secondAttribute="bottom" constant="16.333333333333371" id="sGB-41-Rr6"/>
                         </constraints>
                     </view>
                 </viewController>
