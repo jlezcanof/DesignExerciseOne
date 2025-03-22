@@ -39,7 +39,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-zJ-Uwf">
-                                <rect key="frame" x="16" y="452" width="60" height="75.666666666666629"/>
+                                <rect key="frame" x="16" y="458" width="60" height="75.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="final_humidity_icon" translatesAutoresizingMaskIntoConstraints="NO" id="H4y-Ds-M6K">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -192,8 +192,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="wA0-mu-zPD">
-                                <rect key="frame" x="16.333333333333336" y="592.33333333333348" width="76.333333333333314" height="76.666666666666629"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="wA0-mu-zPD">
+                                <rect key="frame" x="16.333333333333336" y="592.33333333333337" width="76.333333333333314" height="76.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horizontal_raindrops_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WZO-yk-ilO">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -216,7 +216,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Ai-3j-VB2" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="ITa-cV-Q8q"/>
-                            <constraint firstItem="aaV-zJ-Uwf" firstAttribute="top" secondItem="3eR-Vh-lMu" secondAttribute="bottom" constant="62" id="Kk2-eG-jhy"/>
+                            <constraint firstItem="wA0-mu-zPD" firstAttribute="top" secondItem="aaV-zJ-Uwf" secondAttribute="bottom" constant="58.666666666666742" id="J5g-Nf-1v2"/>
+                            <constraint firstItem="aaV-zJ-Uwf" firstAttribute="top" secondItem="3eR-Vh-lMu" secondAttribute="bottom" constant="68" id="Kk2-eG-jhy"/>
+                            <constraint firstItem="wA0-mu-zPD" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16.333333333333336" id="LAG-DW-I2W"/>
+                            <constraint firstItem="6Ai-3j-VB2" firstAttribute="top" secondItem="wA0-mu-zPD" secondAttribute="bottom" constant="57.333333333333258" id="PqY-rA-Zro"/>
                             <constraint firstItem="3eR-Vh-lMu" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" constant="255.33333333333326" id="Tz7-Wx-ATF"/>
                             <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="6Ai-3j-VB2" secondAttribute="bottom" constant="16" id="XWd-l6-QvN"/>
                             <constraint firstItem="aaV-zJ-Uwf" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="i1W-pv-Kv7"/>
@@ -239,8 +242,8 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" minimumValueImage="speaker.slash.fill" catalog="system" maximumValueImage="speaker.wave.2.fill" translatesAutoresizingMaskIntoConstraints="NO" id="heB-bT-sgh">
                                 <rect key="frame" x="16" y="734.66666666666663" width="361" height="35.333333333333371"/>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcn-Zq-MSO">
-                                <rect key="frame" x="16" y="684" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcn-Zq-MSO">
+                                <rect key="frame" x="172.33333333333334" y="734.66666666666663" width="48.666666666666657" height="34.333333333333371"/>
                                 <accessibility key="accessibilityConfiguration" hint="Reproducir desde el comienzo" identifier="left" label="boton izquierdo"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="backward.end.fill" catalog="system"/>
@@ -251,8 +254,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1os-UN-wdI">
-                                <rect key="frame" x="16" y="585" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1os-UN-wdI">
+                                <rect key="frame" x="25" y="610.66666666666663" width="51" height="34.333333333333371"/>
                                 <accessibility key="accessibilityConfiguration" hint="Reproducir desde el comienzo" identifier="left" label="boton izquierdo"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="arrowshape.left.fill" catalog="system"/>
@@ -288,8 +291,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fc-wo-Vkh">
-                                <rect key="frame" x="171" y="585" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fc-wo-Vkh">
+                                <rect key="frame" x="171" y="610.66666666666663" width="60" height="34.333333333333371"/>
                                 <accessibility key="accessibilityConfiguration" hint="Reproducir desde el comienzo" identifier="left" label="boton izquierdo"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="qwR-bL-a7P"/>
@@ -327,8 +330,8 @@
                                     <constraint firstAttribute="width" constant="361" id="wRn-Pe-kQq"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkm-hO-oCw">
-                                <rect key="frame" x="317" y="585" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkm-hO-oCw">
+                                <rect key="frame" x="317" y="610.66666666666663" width="60" height="34.333333333333371"/>
                                 <accessibility key="accessibilityConfiguration" hint="Reproducir desde el comienzo" identifier="left" label="boton izquierdo"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="arrowshape.right.fill" catalog="system"/>
@@ -345,8 +348,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riH-mN-lCZ">
-                                <rect key="frame" x="177" y="482" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riH-mN-lCZ">
+                                <rect key="frame" x="249" y="610.66666666666663" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
