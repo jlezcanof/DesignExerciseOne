@@ -183,9 +183,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white_bg_sun_clouds" translatesAutoresizingMaskIntoConstraints="NO" id="1JR-Ve-h8J">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="white_bg_sun_clouds" translatesAutoresizingMaskIntoConstraints="NO" id="1JR-Ve-h8J">
                                 <rect key="frame" x="116" y="59" width="161" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="M2b-Zz-pgs"/>
+                                    <constraint firstAttribute="height" constant="160" id="i1r-9M-coh"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="20"/>
@@ -215,6 +218,7 @@
                         <viewLayoutGuide key="safeArea" id="Vfz-fr-7HA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="1JR-Ve-h8J" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" id="DMy-RL-SL6"/>
                             <constraint firstItem="6Ai-3j-VB2" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="ITa-cV-Q8q"/>
                             <constraint firstItem="wA0-mu-zPD" firstAttribute="top" secondItem="aaV-zJ-Uwf" secondAttribute="bottom" constant="58.666666666666742" id="J5g-Nf-1v2"/>
                             <constraint firstItem="aaV-zJ-Uwf" firstAttribute="top" secondItem="3eR-Vh-lMu" secondAttribute="bottom" constant="68" id="Kk2-eG-jhy"/>
@@ -222,6 +226,8 @@
                             <constraint firstItem="6Ai-3j-VB2" firstAttribute="top" secondItem="wA0-mu-zPD" secondAttribute="bottom" constant="57.333333333333258" id="PqY-rA-Zro"/>
                             <constraint firstItem="3eR-Vh-lMu" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" constant="255.33333333333326" id="Tz7-Wx-ATF"/>
                             <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="6Ai-3j-VB2" secondAttribute="bottom" constant="16" id="XWd-l6-QvN"/>
+                            <constraint firstItem="1JR-Ve-h8J" firstAttribute="centerX" secondItem="UTM-vZ-XYu" secondAttribute="centerX" id="eCS-5o-qs0"/>
+                            <constraint firstItem="1JR-Ve-h8J" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" id="hW9-yG-imM"/>
                             <constraint firstItem="aaV-zJ-Uwf" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="i1W-pv-Kv7"/>
                             <constraint firstItem="3eR-Vh-lMu" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="m2e-Qj-OqF"/>
                         </constraints>
