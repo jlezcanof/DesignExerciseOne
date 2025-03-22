@@ -38,7 +38,7 @@
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-zJ-Uwf">
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aaV-zJ-Uwf">
                                 <rect key="frame" x="16" y="452" width="60" height="75.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="final_humidity_icon" translatesAutoresizingMaskIntoConstraints="NO" id="H4y-Ds-M6K">
@@ -57,31 +57,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6Ai-3j-VB2">
-                                <rect key="frame" x="16" y="726.33333333333337" width="77" height="75.666666666666629"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer_icon" translatesAutoresizingMaskIntoConstraints="NO" id="g3T-Fq-WTv">
-                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
-                                        <accessibility key="accessibilityConfiguration" label="Temperature">
-                                            <accessibilityTraits key="traits" image="YES"/>
-                                            <bool key="isElement" value="YES"/>
-                                        </accessibility>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="Temperature" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihc-hC-zSd">
-                                        <rect key="frame" x="0.0" y="59.999999999999993" width="77" height="15.666666666666664"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="3eR-Vh-lMu">
-                                <rect key="frame" x="16" y="314.33333333333326" width="74.333333333333329" height="75.666666666666686"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="3eR-Vh-lMu">
+                                <rect key="frame" x="16" y="314.33333333333331" width="74.333333333333329" height="75.666666666666686"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simple_wind_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Jh4-HG-clO">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -155,6 +132,29 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6Ai-3j-VB2">
+                                <rect key="frame" x="16" y="726" width="77" height="75.666666666666629"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thermometer_icon" translatesAutoresizingMaskIntoConstraints="NO" id="g3T-Fq-WTv">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <accessibility key="accessibilityConfiguration" label="Temperature">
+                                            <accessibilityTraits key="traits" image="YES"/>
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" text="Temperature" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihc-hC-zSd">
+                                        <rect key="frame" x="0.0" y="59.999999999999993" width="77" height="15.666666666666664"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" fixedFrame="YES" text="25" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMU-3x-9Fk">
                                 <rect key="frame" x="216" y="476" width="26" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
@@ -192,8 +192,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="wA0-mu-zPD">
-                                <rect key="frame" x="16" y="586" width="76.333333333333329" height="76.666666666666657"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="wA0-mu-zPD">
+                                <rect key="frame" x="16" y="592.33333333333348" width="76.333333333333329" height="76.666666666666629"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horizontal_raindrops_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WZO-yk-ilO">
                                         <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
@@ -215,12 +215,10 @@
                         <viewLayoutGuide key="safeArea" id="Vfz-fr-7HA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="6Ai-3j-VB2" secondAttribute="bottom" constant="16" id="6bU-8U-dTL"/>
-                            <constraint firstItem="aaV-zJ-Uwf" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="Zca-PK-d0f"/>
-                            <constraint firstItem="3eR-Vh-lMu" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="dCa-QR-w3A"/>
-                            <constraint firstItem="6Ai-3j-VB2" firstAttribute="firstBaseline" secondItem="wA0-mu-zPD" secondAttribute="baseline" constant="60.666666666666742" id="jK0-V5-Glq"/>
-                            <constraint firstItem="6Ai-3j-VB2" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="pKg-UE-LgN"/>
-                            <constraint firstItem="wA0-mu-zPD" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="sSf-Ym-7HG"/>
+                            <constraint firstItem="6Ai-3j-VB2" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="ITa-cV-Q8q"/>
+                            <constraint firstItem="3eR-Vh-lMu" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" constant="255.33333333333326" id="Tz7-Wx-ATF"/>
+                            <constraint firstItem="3eR-Vh-lMu" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="m2e-Qj-OqF"/>
+                            <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="6Ai-3j-VB2" secondAttribute="bottom" constant="16.333333333333371" id="sGB-41-Rr6"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -595,13 +593,13 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
