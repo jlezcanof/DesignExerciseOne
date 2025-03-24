@@ -86,7 +86,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="28" translatesAutoresizingMaskIntoConstraints="NO" id="ck2-A5-ySb">
-                                <rect key="frame" x="131.00000000000003" y="754.66666666666663" width="25.333333333333314" height="26.333333333333371"/>
+                                <rect key="frame" x="131" y="754.66666666666663" width="25.333333333333343" height="26.333333333333371"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -213,7 +213,6 @@
                             <constraint firstItem="Vfz-fr-7HA" firstAttribute="bottom" secondItem="gK4-3d-6kp" secondAttribute="bottom" constant="37" id="99a-8S-0kX"/>
                             <constraint firstItem="MqF-zJ-ul0" firstAttribute="leading" secondItem="mMU-3x-9Fk" secondAttribute="trailing" constant="68" id="Ad5-OO-PIX"/>
                             <constraint firstItem="mMU-3x-9Fk" firstAttribute="top" secondItem="LnY-Tk-m5x" secondAttribute="bottom" constant="110.66666666666669" id="DBJ-sN-4RA"/>
-                            <constraint firstItem="1JR-Ve-h8J" firstAttribute="top" secondItem="Vfz-fr-7HA" secondAttribute="top" id="DMy-RL-SL6"/>
                             <constraint firstItem="ac3-Ut-B4P" firstAttribute="top" secondItem="r66-IB-fQW" secondAttribute="bottom" constant="110.66666666666669" id="Fvd-Sh-B5K"/>
                             <constraint firstItem="r66-IB-fQW" firstAttribute="top" secondItem="liN-UB-ytP" secondAttribute="bottom" constant="42.666666666666686" id="Ha3-JN-Lj6"/>
                             <constraint firstItem="6Ai-3j-VB2" firstAttribute="leading" secondItem="Vfz-fr-7HA" secondAttribute="leading" constant="16" id="ITa-cV-Q8q"/>
